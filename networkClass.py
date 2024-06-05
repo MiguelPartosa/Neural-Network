@@ -1,8 +1,7 @@
 import numpy as np
 from neuronClass import Neuron
 
-
-class NeuralNetwork:
+class Network:
     """
     A neural network with:
     - 2 inputs
@@ -21,7 +20,7 @@ class NeuralNetwork:
         self.hidden_layer2 = Neuron(training_weights, training_bias)
         self.output_layer = Neuron(training_weights, training_bias)
 
-    def feedforward(self, input):
+    def feedforwardNetwork(self, input):
         # We record the two outputs from the hidden layer to feedforward to make one output layer node
         from_hidden1 = self.hidden_layer1.feedforward(input)
         from_hidden2 = self.hidden_layer2.feedforward(input)
@@ -33,6 +32,6 @@ class NeuralNetwork:
 
 
 if __name__ == '__main__':
-    my_network = NeuralNetwork()
+    my_network = Network()
     input = np.array([2, 3])
-    print("Output: ", my_network.feedforward(input))
+    print("Output: ", my_network.feedforwardNetwork(input))
