@@ -5,7 +5,7 @@ My first neural network project following [Victor Zhou's blog post](https://vict
 ## Goals
 
 -   Learn how to build a neural network mostly from scratch _(Utilizing numpy)_
--   Expand upon this...
+-   A lot of solid lessons I gathered from this project is entailed in the notebook
 
 ### Dumb Takeaway/s
 
