@@ -1,5 +1,5 @@
 # Hi 🫡
-
+> 🩻WIP: I hit a roadblock with derivatives🩻
 My first neural network project following [Victor Zhou's blog post](https://victorzhou.com/blog/intro-to-neural-networks/)
 
 ## Goals
